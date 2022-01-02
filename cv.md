@@ -22,4 +22,4 @@ RS School student starting to learn:
 English: A1-Elementary
 ## My Projects:
 [CV](rsschool-cv/cv.mdingh-pages)
-
+## Code example:
