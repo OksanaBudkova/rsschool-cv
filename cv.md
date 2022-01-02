@@ -20,6 +20,6 @@ RS School student starting to learn:
 - RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 ## Languages:
 English: A1-Elementary
-## Projects:
+## My Projects:
 [CV](rsschool-cv/cv.mdingh-pages)
 
