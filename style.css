@@ -21,7 +21,6 @@ body {
       transition: .3s;
     }
     .section {
-    display: inline-block;
     max-width: 100%;
     flex: 0 0 25%;
     min-height: 1px;
