@@ -65,7 +65,14 @@ body {
     color: #191919;
     background-color: blanchedalmond;
   }
-  .section-title {
+.section-title1 {
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #009b00;
+  }
+  .section-title2 {
     font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
