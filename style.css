@@ -26,7 +26,8 @@ body {
     }
     
     .section {
-      width: 50%;
+      width: 400px;
+      border: 1px solid
     }
    .logo-holder {
         
@@ -34,11 +35,11 @@ body {
    height: 50px;
          }
          
-       #footer{
-      height: 150px;
-      width: 760px;
-       margin: 0px auto;
-       
+         #footer{
+          height: 150px;
+          width: 760px;
+           margin: 0px auto;
+           
    }
    img{
     display: block;
@@ -62,6 +63,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #191919;
+    background-color: blanchedalmond;
   }
   .section-title {
     font-size: 20px;
@@ -71,16 +73,17 @@ body {
     color: #808000;
   }
   header{
+    background-color: goldenrod;
     font-family: 'Roboto', sans-serif;
     font-size: 14px
     }
+
 
 .page-footer{
   display: inline;
   justify-content: space-evenly;
   align-items: stretch ;
-  background-color: rgb(131, 160, 135);
+  background-color: goldenrod;
   height: 150px;
   width: 760px;
-      ;
 }
