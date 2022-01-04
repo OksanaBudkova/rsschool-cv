@@ -42,7 +42,6 @@ body {
     }
     #footer{
     height: 150px;
-    width: 760px;
     margin: 0px auto;
     }
     img{
@@ -89,8 +88,7 @@ footer{
   align-items: stretch ;
   background-color: goldenrod;
   height: 100px;
-  width: 800px;
-}
+ }
 .logo-img{
   float: left;
   width: 500px;
