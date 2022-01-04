@@ -24,30 +24,37 @@ body {
       display: flex;
       flex-wrap: wrap;
     }
-    
     .section {
-      width: 50%;
+    display: inline-block;
+    max-width: 100%;
+    flex: 0 0 25%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
     }
-   .logo-holder {
-        
-   width: 100px;
-   height: 50px;
-         }
-         
-       #footer{
-      height: 150px;
-      width: 760px;
-       margin: 0px auto;
-       
-   }
-   img{
+    .logo-img {
     display: block;
-    max-width:100px;
-    max-height:100px;
+    max-width:150px;
+    max-height:150px;
+    width: 100px;
+    height: 50px;    
+    }
+    #footer{
+    height: 150px;
+    width: 760px;
+    margin: 0px auto;
+    }
+    img{
+    display: block;
+    max-width:150px;
+    max-height:150px;
     width: auto;
     height: auto;
-    
-   }
+    border-radius: 50%;
+    float: right;
+    }
+   
    html {
     scroll-behavior: smooth; 
   }
@@ -62,6 +69,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #191919;
+    background-color: blanchedalmond;
   }
   .section-title {
     font-size: 20px;
@@ -71,16 +79,19 @@ body {
     color: #808000;
   }
   header{
+    background-color: goldenrod;
     font-family: 'Roboto', sans-serif;
     font-size: 14px
     }
-
-.page-footer{
+footer{
   display: inline;
   justify-content: space-evenly;
   align-items: stretch ;
-  background-color: rgb(131, 160, 135);
-  height: 150px;
-  width: 760px;
-      ;
+  background-color: goldenrod;
+  height: 100px;
+  width: 800px;
+}
+.logo-img{
+  float: left;
+  width: 500px;
 }
