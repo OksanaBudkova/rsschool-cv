@@ -24,31 +24,35 @@ body {
       display: flex;
       flex-wrap: wrap;
     }
-    
     .section {
-      width: 400px;
-      border: 1px solid
-    }
-   .logo-holder {
-        
-   width: 100px;
-   height: 50px;
-         }
-         
-         #footer{
-          height: 150px;
-          width: 760px;
-           margin: 0px auto;
-           
-   }
-   img{
+    max-width: 95%;
+    flex: 0 0 25%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    border-color: #808000;
+    border-style: dotted
+     }
+    .logo-img {
     display: block;
-    max-width:100px;
-    max-height:100px;
-    width: auto;
-    height: auto;
-    
-   }
+    max-width:150px;
+    max-height:150px;
+    width: 100px;
+    height: 50px;    
+    }
+    #footer{
+    height: 150px;
+    margin: 0px auto;
+    }
+    img{
+    display: block;
+    max-width:500px;
+    max-height:500px;
+    border-radius: 50%;
+    float: right;
+    }
+   
    html {
     scroll-behavior: smooth; 
   }
@@ -62,10 +66,16 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    color: #191919;
+    color: #003333;
     background-color: blanchedalmond;
   }
-  .section-title {
+  .section-title1 {
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #009b00;}
+  .section-title2 {
     font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
@@ -77,13 +87,14 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px
     }
-
-
-.page-footer{
+footer{
   display: inline;
   justify-content: space-evenly;
   align-items: stretch ;
   background-color: goldenrod;
-  height: 150px;
-  width: 760px;
+  height: 100px;
+}
+.logo-img{
+  float: left;
+  width: 1000px;
 }
